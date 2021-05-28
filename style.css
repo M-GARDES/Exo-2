@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'griffosfontregular';
+    src: url('fonts/GriffosFont-webfont.eot');
+    src: url('fonts/GriffosFont-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/GriffosFont-webfont.woff2') format('woff2'),
+         url('fonts/GriffosFont-webfont.woff') format('woff'),
+         url('fonts/GriffosFont-webfont.ttf') format('truetype'),
+         url('fonts/GriffosFont-webfont.svg#griffosfontregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.bloctotal{
+    margin: auto;
+    padding-bottom: 80px;
+	border: 2xp, solid;
+	width: 900px;
+    min-width: 900px;
+    max-height: 1500px;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+	box-shadow:	1px 1px 8px black;
+    background-color: rgb(216, 213, 213);	
+}
+
+
+.blocphoto{
+    width: 650px;
+    margin: auto;
+    margin-bottom: 20px;
+    box-shadow:	 rgba(0, 0, 0, 0.19),rgba(0, 0, 0, 0.2);
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;	
+}
+
+img.canap{
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 15px;
+     
+}
+
+.intro{
+    text-align: center;
+}
+
+span.red{
+    color: red;   
+}
+
+.commentaire{
+    margin: auto;
+}
+
+h2{
+    font-family: 'griffosfontregular';
+	color:navy;
+    text-align: center;
+}
+#stars >span{
+    display: inline-block;
+    font-size: 30px;
+    color:rgb(7, 23, 167);    
+}
+#stars:hover > span::before{
+    content: '\2605';
+    position: absolute;
+}
+#stars > span:hover ~ span:before{
+    content: '';
+}
+
+
+
+
